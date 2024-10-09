@@ -1,0 +1,81 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Zigzag Layout */
+.zigzag {
+    display: flex;
+    justify-content: center;
+}
+
+/* Upload Form Styling */
+.upload-form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+/* Left Side Form */
+.left {
+    transform: translateY(-20px);
+}
+
+/* Right Side Form */
+.right {
+    transform: translateY(20px);
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Label & Button Styles */
+label {
+    display: inline-block;
+    background-color: #3F51B5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+label:hover {
+    background-color: #303F9F;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #388E3C;
+}
+
+/* Message Styles */
+.message {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
